@@ -1,0 +1,46 @@
+title: 'Sardonink Media'
+author:
+  name: Isaac
+  email: contact@sardonink.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'A Portfolio Site'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
+header:
+  title: 'Sardonink Media!!!!!'
+  description: 'I''m a Taiwan based <span>technical writer</span>, <span>web designer</span>, and <span>freelancer</span> known for minimalist design and effective project management for a wide range of governments and companies.'
+copyright:
+  -
+    line: 'Copyright Sardonink Media'
+social:
+#  -
+#    url: '#'
+#    icon: facebook
+#  -
+#    url: '#'
+#    icon: twitter
+#  -
+#    url: 'https://www.linkedin.com/in/idurham'
+#    icon: linkedin
+#  -
+#    url: '#'
+#    icon: instagram
+#  -
+#    url: '#'
+#    icon: skype
+twitter:
+  id: '657554810648948736'
+  domId: tw-widget1
+  maxTweets: 3
+  enableLinks: 'true'
+  showInteraction: 'false'
+  showImages: 'false'
+  showUser: 'false'

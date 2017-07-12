@@ -1,0 +1,82 @@
+    .chat{
+      display: none;
+    }
+
+    .chatquery, .chatresponse{
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+      color: black !important;
+      transition: box-shadow .25s;
+      padding: .125em;
+      margin: 0.5rem 0 1rem 0;
+      border-radius: 2px;
+    }
+    .chatquery {
+      background-color: #B9F6CA !important;
+      float: left !important;
+      margin-right: 10em;
+      padding-left: .5em;
+      text-align: left;
+    }
+    .chatresponse{
+      background-color: #11ABB0 !important;
+      float: right !important;
+      margin-left: 3em;
+      padding-right: .5em;
+      text-align: right;
+     }
+    .chatresponse:hover {
+      transition: box-shadow .25s;
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #chatcontainer{
+      bottom: 0;
+      display: none;
+      height: 40%; 
+      position: fixed;      
+      right: 0;
+      width: 30%;
+    }
+    #response {
+      background-color: white;
+      border: 1px solid #3F7F93;
+      display: block;
+      height: 92%;
+      overflow: auto;
+      overflow-x:hidden;
+      padding: 0.1em;
+      width: 100%;
+      -webkit-transition: all 0.35s ease-in;
+    }
+    input:active, input:focus, textarea:active, textarea:focus {
+      outline: 1px solid #48788B;
+    }
+    #submittext, #submitbtn {
+      display: inline-block;
+      padding: .1em;
+      -webkit-transition: all 0.35s ease-in;
+      border: 1px solid #3F7F93;
+      bottom: 0;
+      display: inline-block;
+      height: 8%;
+      right: 0;
+    }
+    #submittext {      
+      background-color: white;
+      color: black;
+      left:0;
+      overflow:auto;
+      padding-right: 5em;
+      width:100%;
+    }
+    #submitbtn {      
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      vertical-align: middle;
+      width: 8%;
+    }    
+    #submitbtn:hover {
+      background-color: white;
+      border: none;
+      color: black;
+    }

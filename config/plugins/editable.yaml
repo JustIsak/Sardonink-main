@@ -1,0 +1,4 @@
+enabled: false
+active_admin: false
+editor: simplemde
+editable_self: false

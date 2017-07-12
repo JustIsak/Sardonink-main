@@ -1,0 +1,22 @@
+<footer>
+  <div id="chatcontainer" class="">
+    <div id="response"></div>
+
+      <input id="submittext" type="text"><span><i id="" class="fa fa-commenting"></i></span>
+
+  </div>
+
+    <div class="row">
+        <div class="twelve columns">
+            <ul class="social-links">
+                {% for item in site.social %}
+                <li><a href="{{ item.url }}"><i class="fa fa-{{ item.icon }}"></i></a></li>
+                {% endfor %}
+            </ul>
+            <ul class="copyright">
+                <li>{{ site.title }} Copyright {{ "now"|date("Y") }}</li>
+            </ul>
+        </div>
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+    </div>
+</footer>
