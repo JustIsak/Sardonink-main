@@ -15,7 +15,7 @@ summary:
 blog:
   route: /blog
 header:
-  title: 'Sardonink Media!!!!!'
+  title: 'Sardonink Media'
   description: 'I''m a Taiwan based <span>technical writer</span>, <span>web designer</span>, and <span>freelancer</span> known for minimalist design and effective project management for a wide range of governments and companies.'
 copyright:
   -
