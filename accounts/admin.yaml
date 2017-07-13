@@ -1,0 +1,12 @@
+email: Grav-admin@sardonink.com
+fullname: Isaac
+title: 'Project Manager Extraordinaire'
+state: enabled
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$PAJ.uUSlvGIytkfyvkLv5.Iv3F2Es7JbLgnAH2girytQkd6tkzm46
+language: en
