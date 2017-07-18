@@ -4,9 +4,10 @@ folders:
   - pages
   - themes
   - config
+  - data
 repository: 'https://github.com/JustIsak/Sardonink-main.git'
 user: JustIsak
-password: gitsync-def50200db3b9b0a47b6127028ff36aa7a92203aea5c46e8d2c0e4ffa6c61ab306f3a257fe03c5320e1f39e0307ef1decab36fca26347bb4386dda1a57cb044066fbd858397fb3da5f19bfe59d01db1ba087d7b5b714cef36314856e4a5c571c3205bf5f0ef44b3b645876410db26319f93c610c973a16c355e1e4cf
+password: gitsync-def50200f8c7e37c1110c7a9c76bb5099f2eb6ee38e21ceb614ea704b6469b861f02aa9d0c28abaa0121a858ba4d74d8942d7c17df25bc08ffc421a2f28232bb8e5c808d04df5fa7205b2bab8fcb4e3e59bbd2a2e849b63406b65a123a0e77f19ccdad1aa01e
 webhook: /_git-sync
 branch: master
 remote:
