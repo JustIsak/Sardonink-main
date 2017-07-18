@@ -7,7 +7,7 @@ folders:
   - data
 repository: 'https://github.com/JustIsak/Sardonink-main.git'
 user: JustIsak
-password: gitsync-def502000a1fd923657fda1b80ea209a54e03b885b0175819f3489c58ff901aa7891bb662f16a918b6a2d159aad5f3e49c57380433abd991dd4ea22d3e4cd29e504b95c6d08622a88b0a208e9a1aa823d0dbdd4018e8324c526fdfeddde8f4b203ed12ef5d73
+password: gitsync-def502000465290deb63bf3cdd655b2724a161f0ed827cc54af651008b6ca13ee680e6c7ee03c2bfeb2a7c10f5ad775a653489ec66c1cce8d31f2f7748d0c4865576d59b084772e2fba8174645c1d900e2518b0edfd3859f0f9baa61de3c83ff1a1cb8e3a9c4
 webhook: /_git-sync
 branch: master
 remote:
