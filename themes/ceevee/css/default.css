@@ -545,6 +545,8 @@ select {
    vertical-align: middle;
    min-width: 225px;
 	max-width: 100%;
+   font-family: 'opensans-regular', sans-serif;
+   font-weight: normal;
    font-size: 15px;
    line-height: 24px;
 	color: #647373;

@@ -11,10 +11,10 @@
 {% if item.title %}
                     <h3>{{ item.title }}</h3>
 {% endif %}
-{% if item.info or item.date %}
-                    <p class="info">
-                        {{ item.info }} <span>&bull;</span> <em class="date">{{ item.date }}</br>
-                        {{ item.location }}
+{% if item.name or item.date %}
+                    <p class="name">
+                        {{ item.name }} </br>
+                        <em class="date">{{ item.location }} &bull; {{ item.date }}
                     </p>
 {% endif %}
                     <p>
