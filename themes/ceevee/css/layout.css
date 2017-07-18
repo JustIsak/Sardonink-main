@@ -166,7 +166,7 @@ ul#nav li a {
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
-	text-decoration: none;
+   text-decoration: none;
    text-align: left;
    color: #fff;
 
@@ -178,7 +178,8 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #395e35; }
+ul#nav li.current { background: #fff;}
+ul#nav li.current a { color: #395e35;}
 
 
 /* ------------------------------------------------------------------ */
@@ -211,24 +212,8 @@ ul#nav li.current a { color: #395e35; }
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
-#about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;c
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
 
+#about .main-col { padding-right: 5%; }
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -241,7 +226,7 @@ ul#nav li.current a { color: #395e35; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #395e35; }
+#resume a, #resume a:visited  { color: #fff; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -274,6 +259,22 @@ ul#nav li.current a { color: #395e35; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+#resume .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#resume .download .button {
+   margin-top: 6px;c
+   background: #fff;
+}
+#resume .download .button:hover {
+   background: #2B2B2B;
+   color: #fff;
+}
+#resume .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
 }
 
 /*----------------------------------------------*/

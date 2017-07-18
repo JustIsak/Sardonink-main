@@ -15,9 +15,6 @@ summary:
   delimiter: '==='
 blog:
   route: /blog
-copyright:
-  -
-    line: 'Copyright Sardonink Media'
 twitter:
   id: '657554810648948736'
   domId: tw-widget1

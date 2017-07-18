@@ -61,5 +61,18 @@ sections:
                 date: null
                 description: 'This section covers some of my more major skills, but is by no means the end-all-be-all of what I can and can''t do. I see my greatest skill as my adaptabilty, and ability to deal with high stress situations.'
                 skills: [{ name: Indesign, level: 90 }, { name: 'Graphic Design', level: 60 }, { name: Wordpress/CMS, level: 75 }, { name: HTML5/CSS, level: 80 }, { name: Remedy/CRMs, level: 65 }, { name: Javascript, level: 70 }, { name: SEO, level: 75 }]
+
+    -
+        title: download
+        css_class: download
+        button:
+            -
+                url: 'http://sardonink.com/portfolio/Isaac%20Durham%20-%20Resume.pdf'
+                icon: download
+                text: 'Download Resume'
+            -
+                icon: comments
+                class: chat
+                text: 'Talk with us'
 ---
 

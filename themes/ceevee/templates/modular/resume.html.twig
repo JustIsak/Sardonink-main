@@ -14,7 +14,7 @@
 {% if item.name or item.date %}
                     <p class="name">
                         {{ item.name }} </br>
-                        <em class="date">{{ item.location }} &bull; {{ item.date }}
+                        <em>{{ item.location }}</em> &bull; {{ item.date }}
                     </p>
 {% endif %}
                     <p>
@@ -32,6 +32,13 @@
                 </div>
             </div>
 {% endfor %}
+{% if section.button %}
+<div class="columns download">
+            {% for button in section.button %}
+                <a href="{{ button.url }}" class="button {{ button.class }}"><i class="fa fa-{{ button.icon }}"></i>{{ button.text }}</a>
+           {% endfor %}
+    </div>
+{% endif %}
         </div>
     </div>
 {% endfor %}
