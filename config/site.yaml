@@ -1,0 +1,31 @@
+title: 'Sardonink Media'
+default_lang: en
+author:
+  name: Isaac
+  email: contact@sardonink.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'A Portfolio Site'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
+copyright:
+  -
+    line: 'Copyright Sardonink Media'
+twitter:
+  id: '657554810648948736'
+  domId: tw-widget1
+  maxTweets: 3
+  enableLinks: 'true'
+  showInteraction: 'false'
+  showImages: 'false'
+  showUser: 'false'
+header:
+  description: 'I''m a Taiwan based <span>technical writer</span>, <span>web designer</span>, and <span>project manager</span> with a talent for minimalist design and creative solutions.'
+  title: 'Sardonink Media!'

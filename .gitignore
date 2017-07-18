@@ -1,0 +1,13 @@
+/accounts
+
+/plugins
+/blueprints
+/data/*
+!/data/contact-form/
+config/*
+!/config/site.yaml
+!/pages
+
+!/themes
+
+
