@@ -1,3 +1,9 @@
+# v2.8.0
+## 07/16/2017
+
+1. [](#bugfix)
+    * Fixed a typo in the spanish translation [#167](https://github.com/getgrav/grav-plugin-form/pull/167)
+
 # v2.8.0-rc.2
 ## 06/22/2017
 

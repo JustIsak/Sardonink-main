@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #395e35; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -116,7 +116,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #395e35; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -178,7 +178,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #395e35; }
 
 
 /* ------------------------------------------------------------------ */
@@ -193,7 +193,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #395e35; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -202,7 +202,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #88919a;
 }
 #about .profile-pic {
    position: relative;
@@ -241,7 +241,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #395e35; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -250,11 +250,11 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #395e35;
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/15px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -265,15 +265,11 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+#resume .name {
+   font: 18px/24px 'opensans-italic', sans-serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
-}
-#resume .info span {
-   margin-right: 5px;
-   margin-left: 5px;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
@@ -790,11 +786,11 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #88919a;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #395e35; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -874,7 +870,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #395e35;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -886,7 +882,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #395e35; }
 
 #message-warning i,
 #message-success i {
@@ -912,7 +908,7 @@ call-to-action .button {
    padding: 0;
 }
 #contact .social li a { color: #fff; }
-#contact .social li a:hover { color: #11ABB0; }
+#contact .social li a:hover { color: #395e35; }
 
 
 #contact .social-links {
@@ -925,7 +921,7 @@ call-to-action .button {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #395e35;
 }
 
 #contact .social-links li:first-child { margin-left: 0; }
@@ -1034,7 +1030,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #395e35;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
