@@ -1,0 +1,20 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block header %}{% include 'partials/noheader.html.twig' %}{% endblock %}
+
+{% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+{% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+
+{% block content %}
+<section class="portfolio-items">
+    <div class="row">
+        <div class="four columns">
+            <img class="thumb"  src="{{ page.media.images['thumb.png'].url }}" alt="" />
+        </div>
+        <div class="eight columns main-col">
+        	<h1>{{page.title}}</h1>
+            {{ page.content }}
+        </div>
+    </div>
+</section>
+{% endblock %}

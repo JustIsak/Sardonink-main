@@ -6,23 +6,21 @@
     {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
     <ul id="nav" class="nav">
-        {% for page in pages.children %}
-            {% if page.visible %}
+        {% for page in pages.children.visible %}
                 {% set current_page = (page.active or page.activeChild) ? 'current' : '' %}
                 {% if 'home' in page.menu %}
                 <li class="current">
                     <a class="smoothscroll" href="#home">
-                        {{ page.menu }}
+                        {{ page.title }}
                     </a>
                 </li>
                 {% else %}
                 <li class="{{ current_page }}">
                     <a href="{{ page.url }}">
-                        {{ page.menu }}
+                        {{ page.title }}
                     </a>
                 </li>
                 {% endif %}
-            {% endif %}
         {% endfor %}
         {% for mitem in site.menu %}
             <li>
@@ -32,9 +30,17 @@
         {% for module in page.collection() %}
             {% if not module.header.hidemenu %}
                 {% set current_page = (module.active or module.activeChild) ? 'current' : '' %}
-                <li class="{{ current_module }}">
-                    <a class="smoothscroll" href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a>
+                {% if page.children.modular %}
+                    <li class="{{ current_module }}">
+                        <a class="smoothscroll" href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a>
+                    </li>                    
+                {% else %}
+                    <li class="{{ current_page }}">
+                    <a href="{{ page.url }}">
+                        {{ page.title }}
+                    </a>
                 </li>
+                {% endif %}
             {% endif %}
         {% endfor %}
     </ul>

@@ -14,7 +14,8 @@
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
-   i. Footer
+   i. Portfolio Item
+   J. Footer
 
 ===================================================================== */
 
@@ -27,19 +28,17 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
-header {
+#home {
    position: relative;
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center fixed;
    background-size: cover !important;
-	-webkit-background-size: cover !important;
+  -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
-
 /* vertically center banner section */
 header:before {
    content: '';
@@ -55,7 +54,6 @@ header .banner {
    padding-bottom: 30px;
    text-align: center;
 }
-
 header .banner-text { width: 100%; background:rgba(0,0,0,0.75);}
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -138,6 +136,7 @@ header .scrolldown a:hover { color: #395e35; }
    position: fixed;
    left: 0;
    top: 0;
+   visibility: visible;
 }
 .opaque { background-color: #333; }
 
@@ -550,6 +549,11 @@ ul#nav li.current a { color: #395e35;}
 }
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+
+#portfolio img{
+  width: 100%;
+  height: 100%;
+}
 
 
 /* fadein/fadeout effect for modal popup
@@ -981,7 +985,49 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* i. Portfolio Item
+/* ------------------------------------------------------------------ */
+
+.portfolio-items {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+   min-height: 450px;
+}
+.portfolio-items a, .portfolio-items a:visited  { color: #fff; }
+.portfolio-items a:hover, .portfolio-items a:focus { color: #395e35; }
+
+.portfolio-items h1, .portfolio-items h2 {
+   color: #fff;
+   margin-bottom: 12px;
+}
+.portfolio-items h1{
+  border-bottom: 1px solid #fff;
+}
+.portfolio-items h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+}
+.portfolio-items p {
+   line-height: 30px;
+   color: #88919a;
+}
+.portfolio-items .thumb {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+.portfolio-items .main-col {
+    padding-right: 5%;
+    border-left: 1px solid #fff;
+}
+.portfolio-item-r, .portfolio-item-r h2, .portfolio-item-r p { 
+    background: white; 
+    color: black;
+  }
+
+/* ------------------------------------------------------------------ */
+/* j. Footer
 /* ------------------------------------------------------------------ */
 
 footer {

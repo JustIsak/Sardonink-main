@@ -2,6 +2,7 @@
   {% block navigation %}
   {% include 'partials/navigation.html.twig' %}
   {% endblock %}
+  {% block headertext %}
   <div class="row banner">
     <div class="banner-text">
       <h1 class="responsive-headline">{{ site.header.title }}</h1>
@@ -19,4 +20,5 @@
   <p class="scrolldown">
     <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
   </p>
+  {% endblock %}
 </header>
