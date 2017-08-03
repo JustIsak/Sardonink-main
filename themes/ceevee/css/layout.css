@@ -258,9 +258,10 @@ ul#nav li.current a { color: #395e35;}
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .location, #resume .date {
+#resume .location{
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+   display:inline;
 }
 #resume .download {
    width: 58.33333%;
@@ -279,18 +280,9 @@ ul#nav li.current a { color: #395e35;}
    font-size: 20px;
 }
 
-/*----------------------------------------------*/
-/*	Prof Table
-/*----------------------------------------------*/
-
-.bars {
-	width: 100%;
-	float: left;
+#resume table{
+    width: 100%;
 }
-.profs td, .profs th{
-    width: 50%;
-}
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
