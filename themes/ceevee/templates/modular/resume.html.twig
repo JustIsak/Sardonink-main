@@ -12,7 +12,7 @@
                     <h3>{{ item.title }}</h3>
                         <p class="name">
                             {{ item.name }} </br>
-                            <span class="location">{{ item.location }} &bull; {{ item.date }}</span>
+                            <div class="location">{{ item.location }} &bull; {{ item.date }}</div>
                         </p>
 {% endif %}
 {% if item.description %}
@@ -21,7 +21,6 @@
                         </p>
 {% endif %}
 {% if item.profs %}
-                    <div class="bars">
                         <table class="profs">
 {% for prof in item.profs %}
                         <tr>
@@ -31,7 +30,6 @@
                         </tr>
 {% endfor %}
                         </table>
-                    </div>
 {% endif %}
                 </div>
             </div>
