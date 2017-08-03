@@ -10,35 +10,39 @@
                 <div class="twelve columns">
 {% if item.title %}
                     <h3>{{ item.title }}</h3>
+                        <p class="name">
+                            {{ item.name }} </br>
+                            <span class="location">{{ item.location }} &bull; {{ item.date }}</span>
+                        </p>
 {% endif %}
-{% if item.name or item.date %}
-                    <p class="name">
-                        {{ item.name }} </br>
-                        <em>{{ item.location }}</em> &bull; {{ item.date }}
-                    </p>
+{% if item.description %}
+                        <p>
+                            {{ item.description }}
+                        </p>
 {% endif %}
-                    <p>
-                        {{ item.description }}
-                    </p>
-{% if item.skills %}
+{% if item.profs %}
                     <div class="bars">
-                        <ul class="skills">
-{% for skill in item.skills %}
-                            <li><span class="bar-expand" style="width: {{ skill.level }}%;animation: {{ skill.name|lower }} 2s ease;"></span><em>{{ skill.name }}</em></li>
+                        <table class="profs">
+{% for prof in item.profs %}
+                        <tr>
+{% for thing in prof %}
+                            <td>{{thing}}</td>
 {% endfor %}
-                        </ul>
+                        </tr>
+{% endfor %}
+                        </table>
                     </div>
 {% endif %}
                 </div>
             </div>
+{% if item.buttons %}
+            <div class="columns download">
+{% for thing in item.buttons %}
+                <a href="{{ thing.url }}" class="button {{ thing.class }}"><i class="fa fa-{{ thing.icon }}"></i>{{ thing.text }}</a>
 {% endfor %}
-{% if section.button %}
-<div class="columns download">
-            {% for button in section.button %}
-                <a href="{{ button.url }}" class="button {{ button.class }}"><i class="fa fa-{{ button.icon }}"></i>{{ button.text }}</a>
-           {% endfor %}
-    </div>
+            </div>
 {% endif %}
+{% endfor %}
         </div>
     </div>
 {% endfor %}

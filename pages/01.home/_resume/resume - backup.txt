@@ -15,6 +15,8 @@ sections:
                 name: 'Internatonal House'
                 date: '2017'
                 location: 'Madrid, Spain'
+
+
     -
         title: Work
         css_class: work
@@ -29,7 +31,7 @@ sections:
                 title: 'Network Operations Engineer'
                 name: 'US Forest Service'                
                 location: 'Grand Rapids, MI, USA'
-                date: '2016 - 2017'
+                date: '2016 - Present'
                 description: 'While in this position, I was a co-lead on an inter-organizational “quick-response” team which provided network operations support for a large federal agency. My responsibilities changed daily, but usually covered software development, technical writing, monitoring systems, tracking and troubleshooting issues, and asset management. My daily tasks ranged from programming, to technical writing, to using a ticketing system to notice long term trends. I have been directly responsible for the development of a range of software tools, internal policies, and the implementation of a solid training program.'                
             -
                 title: 'Senior Technical Writer'
@@ -54,25 +56,23 @@ sections:
         css_class: skill
         items:
             -
-                description: This section covers some of my more major skills, but is by no means the end-all-be-all of what I can and can''t do. I see my greatest skill as my adaptabilty, and ability to deal with high stress situations.
-                profs: 
-                    - [Adobe Creative Suite,Social Media Optimization,Grav/Wordpress/CMS]
-                    - [Writing/Editing,Curriculum Development,PHP/JavaScript]
-                    - [Graphic design,Project management,Remedy/CRM]
-                    - [MS Office,Team Leadership,HTML5/CSS]
+                title: null
+                name: null
+                date: null
+                description: 'This section covers some of my more major skills, but is by no means the end-all-be-all of what I can and can''t do. I see my greatest skill as my adaptabilty, and ability to deal with high stress situations.'
+                skills: [{ name: Indesign, level: 90 }, { name: 'Graphic Design', level: 60 }, { name: Wordpress/CMS, level: 75 }, { name: HTML5/CSS, level: 80 }, { name: Remedy/CRMs, level: 65 }, { name: Javascript, level: 70 }, { name: SEO, level: 75 }]
+
     -
-        title: Download
+        title: download
         css_class: download
-        items:
+        button:
             -
-                buttons:
-                    -
-                        url: 'http://sardonink.com/portfolio/Isaac%20Durham%20-%20Resume.pdf'
-                        icon: download
-                        text: 'Download Resume'
-                    -
-                        icon: comments
-                        class: chat
-                        text: 'Talk with us'
+                url: 'http://sardonink.com/portfolio/Isaac%20Durham%20-%20Resume.pdf'
+                icon: download
+                text: 'Download Resume'
+            -
+                icon: comments
+                class: chat
+                text: 'Talk with us'
 ---
 
