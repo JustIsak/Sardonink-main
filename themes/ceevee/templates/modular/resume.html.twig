@@ -36,7 +36,7 @@
 {% if item.buttons %}
             <div class="columns download">
 {% for thing in item.buttons %}
-                <a href="{{ thing.url }}" class="button {{ thing.class }}"><i class="fa fa-{{ thing.icon }}"></i>{{ thing.text }}</a>
+                <a href="{{ thing.url }}" class="button {{ thing.class }}" target="_blank"><i class="fa fa-{{ thing.icon }}"></i>{{ thing.text }}</a>
 {% endfor %}
             </div>
 {% endif %}
